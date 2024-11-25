@@ -6,14 +6,22 @@ Este é um projeto de um aplicativo de delivery desenvolvido com **React Native*
 ### 1. Rodar o Frontend
 1. Navegue até a pasta do projeto no terminal.
 2. Instale as dependências:
-    npm install
-3. Inicie o frontend 
+   
+    ```
+   npm install
+    ```
+4. Inicie o frontend 
+    ```
     npm start
+    ```
 
 ### 2. Rodar a API local
 1. Certifique-se de estar na pasta principal do projeto.
 2. Inicie a API utilizando o comando:
+   
+    ```
     npx json-server db.json
+    ```
 
 ### 3. Configurar os IPs nas URLs de chamada de API
 As URLs de chamada de API estão configuradas nos seguintes arquivos localizados em **src/components**:
